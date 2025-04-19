@@ -1,4 +1,4 @@
 env/
-VaderBertAnalysis.ipynb
 reddit_stock_data_sentiment.csv
 ticker_sentiment.csv
+.env
