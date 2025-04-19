@@ -1,5 +1,0 @@
-,count,avg_sentiment,avg_normalized,sentiment_distribution
-GME,7,0.16908928571428575,58.45446428571428,{'positive': 7}
-NVDA,86,0.05040359799550022,52.52017989977501,"{'positive': 41, 'neutral': 24, 'negative': 14, 'very_negative': 4, 'very_positive': 3}"
-AAPL,27,0.062152111407562535,53.10760557037813,"{'positive': 14, 'neutral': 7, 'negative': 4, 'very_negative': 1, 'very_positive': 1}"
-TSLA,110,0.02068631371850318,51.034315685925165,"{'positive': 42, 'neutral': 37, 'negative': 21, 'very_negative': 7, 'very_positive': 3}"
