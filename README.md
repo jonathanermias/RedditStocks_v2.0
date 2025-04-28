@@ -1,4 +1,6 @@
-RedditStocks_v2.0
+**RedditStocks_v2.0**
+
+
 This repository contains a machine learning pipeline for predicting stock market movements using Reddit sentiment analysis combined with historical stock data.
 
 Setup Instructions
