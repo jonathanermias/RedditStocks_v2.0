@@ -1,34 +1,52 @@
-**RedditStocks_v2.0**
+Here’s a stylish and **GitHub-friendly** README section for your `RedditStocks_v2.0` project with clear formatting, bold headers, and markdown best practices:
 
+---
 
-This repository contains a machine learning pipeline for predicting stock market movements using Reddit sentiment analysis combined with historical stock data.
+# 🚀 **RedditStocks\_v2.0**
 
-Setup Instructions
-Prerequisites
-Anaconda or Miniconda installed
+A **machine learning pipeline** for predicting **stock market movements** by leveraging **Reddit sentiment analysis** and **historical stock data**.
 
-GitHub access to clone this repository
+---
 
-Reddit API credentials (for data scraping)
+## 📦 **Setup Instructions**
 
-Environment Setup
-Clone the repository:
+### ✅ **Prerequisites**
 
+* ✅ [Anaconda](https://www.anaconda.com/) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) installed
+* ✅ GitHub access to clone this repository
+* ✅ Reddit API credentials (for data scraping)
 
+---
+
+### ⚙️ **Environment Setup**
+
+**Clone the repository:**
+
+```bash
 git clone https://github.com/YOUR-USERNAME/RedditStocks_v2.0.git
 cd RedditStocks_v2.0
-Create and activate the conda environment:
+```
 
+**Create and activate the Conda environment:**
+
+```bash
 conda create -n RedditStocksV2 python=3.8
 conda activate RedditStocksV2
-Install required packages:
+```
 
+**Install required packages:**
 
+```bash
 conda env update --file environment.yml --prune
-Reddit API Setup
-Create Reddit API credentials by setting the following:
+```
 
+---
 
+## 🔐 **Reddit API Setup**
+
+Create a file with the following **Reddit API credentials** (e.g., `reddit_credentials.json`):
+
+```json
 {
   "client_id": "YOUR_CLIENT_ID",
   "client_secret": "YOUR_CLIENT_SECRET",
@@ -36,29 +54,38 @@ Create Reddit API credentials by setting the following:
   "username": "YOUR_REDDIT_USERNAME",
   "password": "YOUR_REDDIT_PASSWORD"
 }
+```
 
+> 💡 *Tip: Do not upload this file to GitHub. Add it to your `.gitignore`!*
 
-Usage Workflow
-Collect Reddit posts:
-Run the redditscraper notebook to gather Reddit posts.
+---
 
-Analyze sentiment:
-Run the vaderbert notebook to perform sentiment analysis on the collected posts.
+## 🧠 **Usage Workflow**
 
-Fetch stock data:
-Use the yahoofinance notebook to pull historical stock prices.
+1. **📥 Collect Reddit posts**
+   Run `redditscraper.ipynb` to scrape posts from financial subreddits.
 
-Merge datasets:
-Combine the sentiment and stock data using the merge notebook.
+2. **💬 Analyze sentiment**
+   Use `vaderbert.ipynb` to perform hybrid sentiment analysis (VADER + FinBERT).
 
-Run machine learning models:
-Train and evaluate models using the merged dataset.
+3. **📈 Fetch stock data**
+   Use `yahoofinance.ipynb` to retrieve historical stock price data.
 
-Additional Notes
-The code is configured for Apple's Metal Performance Shaders (MPS).
-If you have an NVIDIA GPU, modify the device settings from mps to cuda to utilize your GPU.
+4. **🔗 Merge datasets**
+   Combine sentiment and market data using `merge.ipynb`.
 
-If no GPU is available, the models will automatically run on the system CPU.
+5. **🤖 Train ML models**
+   Execute model notebooks to train and evaluate predictions on merged datasets.
 
-Reddit API rate limits may apply.
-You may need to increase sleep timers or limit the amount of data scraped to avoid hitting API limits.
+---
+
+## ⚠️ **Additional Notes**
+
+* 🖥️ Optimized for **Apple M1/M2/M3** devices via **Metal Performance Shaders (MPS)**
+* 💻 If using an **NVIDIA GPU**, switch device settings from `mps` to `cuda`
+* 🧠 Automatically falls back to **CPU** if no GPU is detected
+* ⏱️ Reddit API **rate limits** may apply — adjust sleep intervals or scrape size accordingly
+
+---
+
+Let me know if you'd like badges, a logo, or ToC added too!
