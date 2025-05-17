@@ -1,7 +1,3 @@
-Here’s a stylish and **GitHub-friendly** README section for your `RedditStocks_v2.0` project with clear formatting, bold headers, and markdown best practices:
-
----
-
 # 🚀 **RedditStocks\_v2.0**
 
 A **machine learning pipeline** for predicting **stock market movements** by leveraging **Reddit sentiment analysis** and **historical stock data**.
