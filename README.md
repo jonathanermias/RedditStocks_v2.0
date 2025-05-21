@@ -81,7 +81,3 @@ Create a file with the following **Reddit API credentials** (e.g., `reddit_crede
 * 💻 If using an **NVIDIA GPU**, switch device settings from `mps` to `cuda`
 * 🧠 Automatically falls back to **CPU** if no GPU is detected
 * ⏱️ Reddit API **rate limits** may apply — adjust sleep intervals or scrape size accordingly
-
----
-
-Let me know if you'd like badges, a logo, or ToC added too!
